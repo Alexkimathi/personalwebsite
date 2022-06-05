@@ -98,7 +98,7 @@ nav a span{
    padding: 20px;
    font-size: 20px;
    border-radius: 15px;
-   margin-top: 20px;
+   margin-top: 40px;
 
 
    background-color: #f4511e;
@@ -107,7 +107,7 @@ nav a span{
    padding: 16px 32px;
    text-align: center;
    font-size: 16px;
-   margin: 4px 2px;
+  
    opacity: 1;
    transition: 0.3s;
 
@@ -124,6 +124,14 @@ nav a span{
     font-weight: 900;
     background-color: #f4511e;
 
+}
+.links > ul >li{
+    margin-top: 50px;
+    display: inline-block;
+    padding: 15px;
+    color: white;
+   text-decoration: none;
+   font-size: 50px;
 }
 
 
@@ -195,52 +203,7 @@ nav a span{
 
 
   }
-/* .about{
-    display: flex;
-}
-.info > p{
-    max-width: 50%;
-    font-size: 20px;
-    line-height: 1.8;
-}
-.about > .cards{
-  
-display: flex;
-justify-content: space-between;
 
-   
-}
-.about > .cards{
-    flex-wrap: wrap;
-    display: flex;
-}
-
-.cards > .card{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 40%;
-    border-radius: 5px;
-    display: flex;
-    margin-right: 50px;
-
-}
-.about > .cards > .card > .card-container{
-    padding: 5px 30px;
-
-}
-.about > .cards > .card > .card-container >  h1{
-    font-size: 30px;
-    padding-top: 15%;
-    font-weight: 900;
-
-}
-.about > .cards > .card > .card-container >  p{
-    font-size: 20px; 
-    padding-top: 10%;
-    font-weight: 900;
-    padding-left: 20%;
-
-} */
 
 .footer{
     height: 500px;
