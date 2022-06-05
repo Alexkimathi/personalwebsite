@@ -27,6 +27,7 @@ nav a{
     text-decoration: none;
     font-weight: 900;
     
+    
 }
 nav a span{
     color: crimson;
@@ -93,12 +94,44 @@ nav a span{
     font-weight: 500;
 
 }
+.home .home-content .btn > button{
+   padding: 20px;
+   font-size: 20px;
+   border-radius: 15px;
+   margin-top: 20px;
+
+
+   background-color: #f4511e;
+   border: none;
+   color: white;
+   padding: 16px 32px;
+   text-align: center;
+   font-size: 16px;
+   margin: 4px 2px;
+   opacity: 1;
+   transition: 0.3s;
+
+}
+
+.home .home-content .btn > button:hover {opacity: 0.6}
+
+.info > #myBtn{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 900;
+    background-color: #f4511e;
+
+}
 
 
 
 /*About section*/
 .sect-2{
-    background-color: #f44336;
+    background-image: url();
+    
 }
 .about{
     display: flex;
