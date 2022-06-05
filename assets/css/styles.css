@@ -222,7 +222,8 @@ nav a span{
     color: white;
     margin: 100px;
     padding-top: 100px;
-    font-weight: 300;
+    font-weight: 900;
+    padding-left: 50px;
 }
 .footer > .footer-head span{
     color: #FAFF00;
@@ -234,7 +235,7 @@ nav a span{
     
    
 }
-.footer > .social > .icon-links ul > li{
+.footer > .social > .icon-links ul > li {
     display: inline-block;
     padding: 15px;
     color: white;
@@ -261,5 +262,9 @@ nav a span{
 .footer > .social> .heading li{
     font-size: 18px;
     color: white;
+}
+.heading > ul > li > a{
+    color: black;
+    font-weight: 900;
 }
 
