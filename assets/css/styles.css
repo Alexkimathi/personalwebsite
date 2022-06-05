@@ -1,7 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: green;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+   
+   
 }
 nav{
     display: flex;
@@ -9,11 +16,18 @@ nav{
     align-items: center;
     padding: 2% 6%;
 }
+nav a{
+    color: aliceblue;
+    font-size: 40px;
+    text-decoration: none;
+    
+}
+nav a span{
+    color: crimson;
+}
 .nav-links > ul{
     display: flex;
-    
- 
-    
+
 }
 .nav-links > ul > li {
    list-style: none;
@@ -26,3 +40,136 @@ nav{
   font-size: 23px;
   text-decoration: none;
  }
+ .nav-links ul li::after{
+     content: '';
+     width: 0%;
+     height: 2px;
+     background: #f44336;
+     display: block;
+     margin: auto;
+     transition: 0.5s;
+ }
+ .nav-links ul li:hover::after{
+     width: 100%;
+ }
+.home{
+    display: flex;
+    color: white;
+    min-height: 500px;
+    height: 100vh;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    margin-left: -3 px;
+
+}
+.home .home-content .text-3{
+    font-size: 46px;
+    margin: 5px 0;
+
+}
+.home .home-content .text-3 span{ 
+    color: crimson;
+    font-weight: 500;
+
+}
+
+
+/*About section*/
+.about{
+    display: flex;
+}
+.info > p{
+    max-width: 50%;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    display: flex;
+    margin-right: 50px;
+
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+ 
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .cards > .card > .container > h1{
+    font-size: 30px;
+    padding-top: 15%;
+    font-weight: 900;
+
+
+  }
+
+  .cards > .card > .container > p{
+    font-size: 20px; 
+    padding-top: 10%;
+    font-weight: 900;
+    padding-left: 20%;
+
+
+  }
+/* .about{
+    display: flex;
+}
+.info > p{
+    max-width: 50%;
+    font-size: 20px;
+    line-height: 1.8;
+}
+.about > .cards{
+  
+display: flex;
+justify-content: space-between;
+
+   
+}
+.about > .cards{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.cards > .card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    display: flex;
+    margin-right: 50px;
+
+}
+.about > .cards > .card > .card-container{
+    padding: 5px 30px;
+
+}
+.about > .cards > .card > .card-container >  h1{
+    font-size: 30px;
+    padding-top: 15%;
+    font-weight: 900;
+
+}
+.about > .cards > .card > .card-container >  p{
+    font-size: 20px; 
+    padding-top: 10%;
+    font-weight: 900;
+    padding-left: 20%;
+
+} */
