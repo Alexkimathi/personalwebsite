@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: green;
+    /* background-color: green; */
 }
 .max-width{
     max-width: 1300px;
@@ -15,6 +15,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 2% 6%;
+    background-color: black;
 }
 nav a{
     color: aliceblue;
@@ -57,6 +58,7 @@ nav a span{
     color: white;
     min-height: 500px;
     height: 100vh;
+    background-color:green;
 }
 .home .max-width{
     margin: auto 0 auto 40px;
@@ -173,3 +175,42 @@ justify-content: space-between;
     padding-left: 20%;
 
 } */
+footer{
+    /* width: 100%;
+    position: absolute; */
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    /* color: #fff; */
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+   
+    
+}
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.col> ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    line-height: 1.8;
+}
+
+.col > h2{
+    /* text-decoration: none; */
+    color: white;
+    font-size: 25px;
+    line-height: 1.8;
+}
