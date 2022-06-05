@@ -175,42 +175,62 @@ justify-content: space-between;
     padding-left: 20%;
 
 } */
-footer{
-    /* width: 100%;
-    position: absolute; */
-    bottom: 0;
-    background: linear-gradient(to right, #00093c, #2d0b00);
-    /* color: #fff; */
-    padding: 100px 0 30px;
-    border-top-left-radius: 125px;
-    font-size: 13px;
-    line-height: 20px;
-   
+
+.footer{
+    height: 500px;
+    background-color:black;
+    border-top-left-radius: 350px;
+    
     
 }
-
-.row{
-    width: 85%;
-    margin: auto;
+.footer > .footer-head{
+    margin: 0;
+    padding: 0;
+   
+}
+.footer > .footer-head h1{
+    font-size: 30px;
+    color: white;
+    margin: 100px;
+    padding-top: 100px;
+    font-weight: 300;
+}
+.footer > .footer-head span{
+    color: #FAFF00;
+    
+}
+.footer > .social > .icon-links {
+    margin-left: 100px;
+    color: white;
+    
+   
+}
+.footer > .social > .icon-links ul > li{
+    display: inline-block;
+    padding: 15px;
+    color: white;
+   text-decoration: none;
+   font-size: 30px;
+}
+.footer  .social{
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
+
 }
-.col{
-    flex-basis: 25%;
-    padding: 10px;
-}
-.col> ul > li > a{
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
+.footer > .social> .heading {
+    margin-left: 250px;
     line-height: 1.8;
+ 
+    
+
+}
+.footer > .social> .heading h1{
+    font-size: 18px;
+    color: white;
+    
+
+}
+.footer > .social> .heading li{
+    font-size: 18px;
+    color: white;
 }
 
-.col > h2{
-    /* text-decoration: none; */
-    color: white;
-    font-size: 25px;
-    line-height: 1.8;
-}
