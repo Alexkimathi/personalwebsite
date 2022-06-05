@@ -1,7 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    /* background-color: green; */
+   
+}
+body{
+    
 }
 .max-width{
     max-width: 1300px;
@@ -15,12 +18,14 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 2% 6%;
-    background-color: black;
+    /* color: black; */
+    /* background-color: black; */
 }
 nav a{
-    color: aliceblue;
+    color: black;
     font-size: 40px;
     text-decoration: none;
+    font-weight: 900;
     
 }
 nav a span{
@@ -35,9 +40,10 @@ nav a span{
    display: inline-block;
    padding: 8px 12px;
    position: relative;
+   
 }
 .nav-links > ul > li a{
-  color: white;
+  
   font-size: 23px;
   text-decoration: none;
  }
@@ -58,10 +64,15 @@ nav a span{
     color: white;
     min-height: 500px;
     height: 100vh;
-    background-color:green;
+    /* background-color:green; */
+    background-image: url(../images/banner.png);
+    justify-content: space-between;
 }
 .home .max-width{
     margin: auto 0 auto 40px;
+}
+.home > img{
+    margin-right: 200px;
 }
 .home .home-content .text-1{
     font-size: 27px;
@@ -84,14 +95,36 @@ nav a span{
 }
 
 
+
 /*About section*/
+.sect-2{
+    background-color: #f44336;
+}
 .about{
     display: flex;
+   
+    width: 100%;
+}
+.about > img{
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 25px;
+}
+.info{
+    margin-top: 25px;
+    margin-left: 70px;
 }
 .info > p{
-    max-width: 50%;
-    font-size: 20px;
+    max-width: 90%;
+    font-size: 25px;
     line-height: 1.8;
+    margin-top: 20px;
+    
+}
+.info h1{
+    font-size: 30px;
+    font-weight: 900;
 }
 
 .card {
@@ -178,7 +211,7 @@ justify-content: space-between;
 
 .footer{
     height: 500px;
-    background-color:black;
+    background-image: url(../images/footer_bg.png);
     border-top-left-radius: 350px;
     
     
